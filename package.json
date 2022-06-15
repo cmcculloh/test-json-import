@@ -1,0 +1,26 @@
+{
+    "name": "test-json-import",
+    "version": "1.0.0",
+    "description": "An npm package that uses the new node 16.15+ assert type json syntax so you can test importing it.",
+    "license": "MIT",
+    "repository": "cmcculloh/test-json-import",
+    "author": {
+        "name": "Christopher McCulloh",
+        "email": "cmcculloh@gmail.com",
+        "url": "https://cmcculloh.com"
+    },
+    "type": "module",
+    "engines": {
+        "node": ">=16.15.0"
+    },
+    "files": [
+        "index.cjs",
+        "wrapper.mjs"
+    ],
+    "keywords": [
+        "json",
+        "import",
+        "esm"
+    ],
+    "dependencies": {}
+}
